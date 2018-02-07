@@ -8,6 +8,7 @@ body{
  font-weight: bold;
  display: flex;
  flex-direction: row;
+ justify-content: space-around;
 }
 
 .logo{
@@ -16,8 +17,9 @@ body{
 
 .title{
   color: MediumAquamarine
+
 }
 
-.navigation{
-
+li{
+  display: inline-block;
 }
