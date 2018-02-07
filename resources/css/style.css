@@ -7,19 +7,24 @@ body{
  font-size: 14px;
  font-weight: bold;
  display: flex;
- flex-direction: row;
- justify-content: space-around;
-}
-
-.logo{
+ align-content: space-around;
 
 }
 
 .title{
-  color: MediumAquamarine
+  color: MediumAquamarine;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+}
 
+ul{
+  display: flex;
 }
 
 li{
   display: inline-block;
+  justify-content: space-between;
+  align-self: center;
+
 }
