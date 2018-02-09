@@ -1,56 +1,52 @@
-body{
-  font-family: helvetica sans-serif;
-  margin: 0 auto;
-}
+
 
 .header-flex{
  font-family: Verdana;
  font-size: 14px;
  font-weight: bold;
  display: flex;
- flex-direction: row;
- align-content: space-around;
+ justify-content: space-between;
 }
 
 .title{
   border: 1px solid black;
   color: MediumAquamarine;
-  display: flex;
-  width: 750px;
-  max-height: 75px;
-  padding: 15px;
-
-}
-.logo{
-  width: 81px;
-  height: 70px;
-}
-.navigation{
+  width: 400px;
   display: flex;
   flex-direction: row;
-  align-self: flex-end;
-
-
+  justify-content: flex-start;
 
 }
+
+.navigation{
+  display: flex;
+  align-items: center;
+}
 li{
-  display: inline-block;
-  align-items: flex-start;
-  width: 75px;
-  height: 15px;
+display: inline-block;
+width: 100px;
+}
+div{
+  border: 1px solid black;
 }
 .main{
   border: 1px solid black;
+  display: flex;
 }
 .large{
   border: 1px solid black;
+  width: 630px;
 }
 .medium{
   border: 1px solid black;
+  width: 300px;
 }
 .small{
   border: 1px solid black;
+  width: 240px;
 }
-.one{
-border: 1px solid black;
+
+/*large div*/
+.first {
+  background-color: pink;
 }
