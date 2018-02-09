@@ -1,5 +1,5 @@
 
-
+/*header section*/
 .header-flex{
  font-family: Verdana;
  font-size: 14px;
@@ -15,7 +15,6 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-
 }
 
 .navigation{
@@ -26,6 +25,7 @@ li{
 display: inline-block;
 width: 100px;
 }
+/*main content*/
 div{
   border: 1px solid black;
 }
@@ -47,6 +47,15 @@ div{
 }
 
 /*large div*/
-.first {
+.image-one{
+  background-color: pink;
+}
+.image-two{
+  background-color: pink;
+}
+.image-three{
+  background-color: pink;
+}
+.image-four{
   background-color: pink;
 }
