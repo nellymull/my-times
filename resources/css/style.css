@@ -35,12 +35,10 @@ div{
 .main{
   border: 1px solid black;
   margin: 30px 30px;
-  max-width: 911;
   display: flex;
   justify-content: space-between;
 }
 .inside{
-
 }
 .large{
   border: 1px solid black;
@@ -53,6 +51,14 @@ div{
 .small{
   border: 1px solid black;
   width: 240px;
+}
+.broken{
+  width: 300px;
+}
+.columns{
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
 }
 
 /*images*/
@@ -76,12 +82,17 @@ div{
 }
 .pic{
   height: 300px;
+  display: flex;
+  align-self: center;
 }
 h3{
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
 }
 
 .story{
