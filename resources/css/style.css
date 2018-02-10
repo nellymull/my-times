@@ -35,20 +35,21 @@ div{
   margin: 30px 30px;
   display: flex;
   justify-content:space-around;
-}
-.inside{
+  align-items: inline;
 }
 .large{
   width: 630px;
 }
 .medium{
   width: 300px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .small{
   width: 240px;
 }
 .broken{
-  width: 275px;
+  min-width: 275px;
 }
 .columns{
   display: flex;
@@ -94,9 +95,9 @@ p{
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  min-width: 300px;
 }
 
 .story{
   font-size: 40px;
-
 }
