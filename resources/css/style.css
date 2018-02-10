@@ -6,10 +6,10 @@
  font-weight: bold;
  display: flex;
  justify-content: space-between;
+ border-bottom: 2px solid black;
 }
 
 .title{
-  border: 1px solid black;
   color: MediumAquamarine;
   width: 400px;
   display: flex;
@@ -27,29 +27,24 @@ width: 100px;
 }
 /*main content*/
 div{
-  border: 1px solid black;
   font-family: Georgia;
   font-size: 17px;
   color: black;
 }
 .main{
-  border: 1px solid black;
   margin: 30px 30px;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around;
 }
 .inside{
 }
 .large{
-  border: 1px solid black;
   width: 630px;
 }
 .medium{
-  border: 1px solid black;
   width: 300px;
 }
 .small{
-  border: 1px solid black;
   width: 240px;
 }
 .broken{
