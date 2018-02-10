@@ -34,9 +34,8 @@ div{
   color: black;
 }
 .main{
-  margin: 30px 30px;
-  border: 5px 5px;
   display: flex;
+
 }
 .large{
   width: 630px;
