@@ -48,12 +48,13 @@ div{
   width: 240px;
 }
 .broken{
-  width: 300px;
+  width: 275px;
 }
 .columns{
   display: flex;
-  text-align: left;
+  text-align:left;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 /*images*/
@@ -88,6 +89,11 @@ h3{
   display: flex;
   text-align: center;
   align-items: center;
+}
+p{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .story{
