@@ -1,4 +1,5 @@
 
+
 /*header section*/
 .header-flex{
  font-family: Verdana;
@@ -7,6 +8,7 @@
  display: flex;
  justify-content: space-between;
  border-bottom: 2px solid black;
+
 }
 
 .title{
@@ -33,29 +35,28 @@ div{
 }
 .main{
   margin: 30px 30px;
+  border: 5px 5px;
   display: flex;
-  justify-content:space-around;
-  align-items: inline;
 }
 .large{
   width: 630px;
+  margin: 20px;
 }
 .medium{
   width: 300px;
-  margin-left: 15px;
-  margin-right: 15px;
 }
 .small{
   width: 240px;
+  margin: 20px;
 }
 .broken{
-  min-width: 275px;
+  width: 275px;
 }
 .columns{
   display: flex;
   text-align:left;
   justify-content: space-between;
-  align-items: flex-end;
+
 }
 
 /*images*/
