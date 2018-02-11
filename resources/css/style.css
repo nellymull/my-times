@@ -19,7 +19,6 @@ body{
  z-index: 2;
 }
 
-
 .title{
   color: MediumAquamarine;
   width: 400px;
@@ -31,20 +30,24 @@ body{
   display: flex;
   align-items: center;
 }
+
 li {
   list-style-type: none;
 }
+
 #li{
 display: inline-block;
 width: 100px;
 color: black;
 }
+
 /*main content*/
 div{
   font-family: Georgia;
   font-size: 17px;
   color: black;
 }
+
 .main{
   display: flex;
   top: 119px;
@@ -53,17 +56,22 @@ div{
   height: 1250px;
   width: 100%;
 }
+
 .large{
   width: 630px;
   margin: 10px;
 }
+
 .medium{
   width: 300px;
+  margin-left: 20px;
 }
+
 .small{
   width: 240px;
-  margin: 10px;
+  margin-left: 30px;
 }
+
 .broken{
   width: 275px;
 }
@@ -125,9 +133,6 @@ h5{
   border-bottom: 1px solid black;
   margin: 0;
   padding: 10px;
-
-
-
 }
 .gray{
   background-color: lightgray;
