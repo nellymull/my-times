@@ -122,6 +122,9 @@ p{
 h5{
   border-bottom: 1px solid black;
   color: DimGray;
+  padding-left: 25px;
+  padding-right: 10px;
+  padding-bottom: 15px;
 
 
 }
