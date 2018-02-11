@@ -71,7 +71,6 @@ div{
   display: flex;
   text-align:left;
   justify-content: space-between;
-
 }
 
 /*images*/
@@ -120,11 +119,13 @@ p{
 
 /*newsbite list*/
 h5{
-  border-bottom: 1px solid black;
   color: DimGray;
-  padding-left: 25px;
-  padding-right: 10px;
-  padding-bottom: 15px;
+  font-family: Georgia;
+  font-weight:normal;
+  border-bottom: 1px solid black;
+  margin: 0;
+  padding: 10px;
+
 
 
 }
