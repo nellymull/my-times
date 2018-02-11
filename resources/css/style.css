@@ -2,7 +2,6 @@
 
 body{
   margin: 0 auto;
-
 }
 
 /*header section*/
@@ -51,7 +50,7 @@ div{
   top: 119px;
   position: relative;
   z-index: 1;
-  height: 1200px;
+  height: 1250px;
   width: 100%;
 }
 .large{
@@ -135,11 +134,11 @@ h5{
 /*footer*/
 .footer{
   font-size: 15px;
-  border: 1px solid black;
   font-family: Georgia;
   background-color: MediumAquamarine;
   height: 250px;
   width: 100%;
+  border-top: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
