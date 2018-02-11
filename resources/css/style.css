@@ -136,15 +136,36 @@ h5{
 
 /*footer*/
 .footer{
+  font-size: 15px;
+  border: 1px solid black;
+  font-family: Georgia;
   background-color: MediumAquamarine;
+  height: 250px;
+  width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 300px;
-  min-width: 1300px;
-  max-width: 1400px;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+
 }
 
-h6{
+.ab{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 23px;
+  border-right: 2px solid white;
+  padding-right: 20px;
+  color: white;
+}
+
+#black{
+color: black;
+font-family: Georgia;
+padding-left: 15px;
+}
+
+.c{
+font-size: 12px;
 
 }
